@@ -1,14 +1,16 @@
 import { FC } from "react";
 
 import "./index.scss";
-import { WithRouter } from "./providers";
+import { WithRouter, WidthStore } from "./providers";
 import { Routing } from "pages";
 
 // import { Layout } from "components";
 // import { AppRouter } from "routes";
 
 export const App: FC = () => (
-    <WithRouter>
-        <Routing />
-    </WithRouter>
+    <WidthStore>
+        <WithRouter>
+            <Routing />
+        </WithRouter>
+    </WidthStore>
 );
