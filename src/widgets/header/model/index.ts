@@ -1,0 +1,1 @@
+export { showHeaderInfoSlice } from "./showHeaderInfoSlice"

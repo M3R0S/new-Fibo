@@ -1,0 +1,15 @@
+@use "app/styles/_var.module.scss" as *;
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.call_number {
+    margin-left: 1rem;
+}

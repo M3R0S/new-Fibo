@@ -1,2 +1,2 @@
-export { WithRouter } from "./WithRouter";
-export { WidthStore } from "./WidthStore";
+export { WithRouter } from "./withRouter";
+export { WidthStore } from "./withStore";

@@ -1,0 +1,1 @@
+export { HeaderBigScreen } from "./headerBigScreen"

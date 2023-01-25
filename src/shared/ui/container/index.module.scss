@@ -1,0 +1,5 @@
+@use "app/styles/_var.module.scss" as *;
+
+.section_root {
+    width: $section-width;
+}

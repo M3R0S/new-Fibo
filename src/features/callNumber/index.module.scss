@@ -1,0 +1,16 @@
+@use "app/styles/_var.module.scss" as *;
+
+.call_number_root {
+    width: 267px ;
+    padding: 0.2rem 0.3rem;
+    color: $color-yellow;
+    font-size: 2.6rem;
+    font-weight: 700;
+    border-radius: 1.7rem;
+    white-space: nowrap;
+    background-color: inherit;
+
+    &:hover {
+        outline: 1px solid $color-yellow;
+    }
+}

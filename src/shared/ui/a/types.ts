@@ -1,5 +1,4 @@
 import { HTMLAttributeAnchorTarget, HTMLAttributes } from "react";
-import { AccordanceVariantClassName } from "utils/types";
 
 type AVariant = "HeaderDeliveryInfo";
 

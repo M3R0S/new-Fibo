@@ -1,0 +1,52 @@
+@use "app/styles/_var.module.scss" as *;
+
+.button_root {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border: none;
+}
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+.nav_link {
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: $color-black;
+    border-radius: 1.2rem;
+    transition: all 0.2s linear;
+
+    &:hover {
+        background-color: $color-yellow;
+    }
+
+    &_active {
+        color: $color-yellow;
+
+        &:hover {
+            background-color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .nav_link {
+        color: $color-black;
+        background-color: $color-yellow;
+        font-size: 1.9rem;
+
+        &:hover {
+            background-color: #fff;
+        }
+
+        &_active {
+            color: #fff;
+
+            &:hover {
+                background-color: $color-yellow;
+            }
+        }
+    }
+}
